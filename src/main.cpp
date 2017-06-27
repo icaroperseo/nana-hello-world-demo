@@ -35,10 +35,10 @@
 
 #include <nana/gui.hpp>
 
+using namespace nana;
+
 int main()
 {
-    using namespace nana;
-
     /*
      * Class: form
      * 
