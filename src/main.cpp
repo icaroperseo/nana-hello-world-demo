@@ -4,10 +4,11 @@
  * Author: Iván Ruvalcaba
  * Contact: <icaroperseo[at]protonmail[dot]com>
  *
- * Created on 26 de junio de 2017, 09:23 AM
+ * Created on June 26, 2017 at 09:23 AM
  * 
  * Language: C++11/14
  * Compiler: Any Standard C++ compiler(Visual C++ 2013, GCC/MinGW and Clang)
+ * OS: GNU/Linux, Microsoft Windows, Mac OS (experimental)
  *
  * Description:
  * 
