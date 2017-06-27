@@ -8,9 +8,7 @@
 CC := g++
 SRCDIR := src
 BUILDDIR := build
-BINDIR := bin
-BINNAME := hello
-TARGET := $(BINDIR)/$(BINNAME)
+TARGET := bin/hello
 
 SRCEXT := cpp
 SOURCES := $(shell find $(SRCDIR) -type f -name *.$(SRCEXT))
@@ -20,7 +18,7 @@ LIB := -lnana -lX11 -lXft -lfontconfig -lpthread
 INC := -I include
 
 $(TARGET): $(OBJECTS)
-	@mkdir -p $(BINDIR)
+	@mkdir -p bin
 	@echo " Linking..."
 	@echo " $(CC) $^ -o $(TARGET) $(LIB)"; $(CC) $^ -o $(TARGET) $(LIB)
 
