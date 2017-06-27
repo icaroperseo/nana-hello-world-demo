@@ -54,7 +54,7 @@ int main()
      * Class: drawing
      *
      * The class drawing provides interfaces to draw graphics on the surface
-     * of a widget. It specifies a drawing method, and then everytime the
+     * of a widget. It specifies a drawing method, and then every time the
      * widget redraws, the drawing method will be applied.
      */
     drawing {fm}.draw([](paint::graphics& graph)
